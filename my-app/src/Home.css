@@ -1,0 +1,72 @@
+/* src/Header.css */
+.header {
+    font-family: Arial, sans-serif;
+}
+
+.contact-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffffff;
+}
+
+.navbar .logo {
+    height: 70px;
+    width: 120px;
+    position: absolute;
+    
+    left: 0;
+    
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    text-decoration: none;
+    color: #000;
+}
+
+.donate-button {
+    background-color: orange;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #0056b3;
+    color: #fff;
+}
+
+.banner-text {
+    max-width: 50%;
+}
+
+.banner-text h1 {
+    font-size: 2em;
+}
+
+.banner-image img {
+    max-width: 100%;
+    height: auto;
+}
